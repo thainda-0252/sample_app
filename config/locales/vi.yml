@@ -1,0 +1,32 @@
+vi:
+  static_pages:
+    about:
+      title: "Về chúng tôi"
+      description: <a href="https://www.railstutorial.org/"><em>Hướng dẫn về Ruby on Rails</em></a>, một phần của <a href="https://www.learnenough. com/">Tìm hiểu đủ</a> nhóm hướng dẫn, là một <a href="https://www.railstutorial.org/book">cuốn sách</a> và <a href="https://screencasts .railstutorial.org/">loạt video ghi lại màn hình</a> để hướng dẫn phát triển web với <a href="https://rubyonrails.org/">Ruby on Rails</a>. Đây là ứng dụng mẫu cho hướng dẫn.
+    contact:
+      title: "Liên hệ"
+      description: Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại <a href="https://www.railstutorial.org/contact">trang liên hệ</a>.
+    help:
+      title: "Trợ giúp"
+      description: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại <a href="https://www.railstutorial.org/help">trang Trợ giúp hướng dẫn Rails</a>. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem cuốn sách <a href="https://www.railstutorial.org/book"><em>Hướng dẫn về Ruby on Rails</em></a>.
+    home:
+      title: "Chào mừng bạn đến với Ứng dụng mẫu"
+      description: Đây là trang chủ của dự án mẫu sử dụng <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>.
+      sign_up: "Đăng ký ngay"
+      label: "Home"
+    layouts:
+      header:
+        title: "Hướng dẫn Sample App bằng Ruby on Rails"
+        login: "Đăng nhập"
+      footer:
+        description: <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a> của <a href="https://www.michaelhartl.com/">Michael Hartl</a>
+        new: Tin tức
+    app_name: "Sample App"
+    full_title: "Hướng dẫn Sample App bằng Ruby on Rails"
+  sign_up:
+    title: "Đăng ký"
+    description: "Đây sẽ là một trang đăng ký cho người dùng mới."
+  login:
+    title: "Đăng nhập"
+    description: "Trang đăng nhập."
+    
