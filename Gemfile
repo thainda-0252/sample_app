@@ -47,6 +47,8 @@ gem "bootstrap-sass", "3.4.1"
 gem "rails-i18n"
 
 gem "config"
+
+gem "bcrypt", "3.1.18"
 # Use Sass to process CSS
 # gem "sassc-rails"
 
