@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     get  "/contact", to: "static_pages#contact"
     get  "/signup", to: "users#new"
     get  "/login", to: "users#login"
+    resources :users, only: %i(new show create)
   end
   
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

@@ -26,7 +26,16 @@ vi:
   sign_up:
     title: "Đăng ký"
     description: "Đây sẽ là một trang đăng ký cho người dùng mới."
+    confirm: "Xác nhận mật khẩu"
+    name: "Tên"
+    password: "Mật khẩu"
+    create: "Tạo tài khoản"
+    errors:
+      error_message: "Biểu mẫu có %{message}."
+      error: "lỗi"
+    welcome: "Chào mừng đến với Ứng dụng mẫu!"
   login:
     title: "Đăng nhập"
     description: "Trang đăng nhập."
-    
+  users:
+    not_found: "Không tìm thấy người dùng này"
