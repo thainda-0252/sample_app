@@ -26,6 +26,16 @@ en:
   sign_up:
     title: "Sign Up"
     description: "This will be a signup page for new users."
+    confirm: "Confirm password"
+    name: "Name"
+    password: "Password"
+    create: "Create my account"
+    errors:
+      error_message: "The form contains %{message}."
+      error: "error"
+    welcome: "Welcome to the Sample App!"
   login:
     title: "Login"
     description: "Login page."
+  users:
+    not_found: "Not found user"
