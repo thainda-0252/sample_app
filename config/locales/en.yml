@@ -13,11 +13,19 @@ en:
       title: "Welcome to the Sample App"
       description: This is the home page for the <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application.
       sign_up: "Sign up now!"
-    label: "Home"
+      label: "Home"
     layouts:
       header:
         title: "Ruby on Rails Tutorial Sample App"
         login: "Log in"
+        users: 
+          title: "Users"
+        account: 
+          title: "Account"
+          menu: 
+            profile: "Profile"
+            settings: "Settings"
+            logout: "Logout"
       footer:
         description: The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> by <a href="https://www.michaelhartl.com/">Michael Hartl</a>
         new: "News"
@@ -37,5 +45,20 @@ en:
   login:
     title: "Login"
     description: "Login page."
+    sign_up: 
+      new_user: "New user?"
+      page: "Sign up now"
+    form: 
+      email: "Email"
+      password: "Password"
+    message: 
+      danger: "email/mật khẩu không hợp lệ"
   users:
     not_found: "Not found user"
+  session:
+    create:
+      title: "Create"
+      description: "Create description"
+    destroy:
+      title: "Destroy"
+      description: "Destroy description"
