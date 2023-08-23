@@ -48,6 +48,7 @@ vi:
     sign_up: 
       new_user: "Người dùng mới?"
       page: "Đăng ký ngay"
+    remember_me: "Ghi nhớ đăng nhập"
     form: 
       email: "Email"
       password: "Mật khẩu"

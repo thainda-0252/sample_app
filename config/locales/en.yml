@@ -48,11 +48,12 @@ en:
     sign_up: 
       new_user: "New user?"
       page: "Sign up now"
+    remember_me: "Remember me on this computer"
     form: 
       email: "Email"
       password: "Password"
     message: 
-      danger: "email/mật khẩu không hợp lệ"
+      danger: "email/password not valid"
   users:
     not_found: "Not found user"
   session:
