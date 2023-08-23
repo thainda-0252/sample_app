@@ -18,6 +18,14 @@ vi:
       header:
         title: "Hướng dẫn Sample App bằng Ruby on Rails"
         login: "Đăng nhập"
+        users: 
+          title: "Người dùng"
+        account: 
+          title: "Tài khoản"
+          menu: 
+            profile: "Trang cá nhân"
+            settings: "Cài đặt"
+            logout: "Đăng xuất"
       footer:
         description: <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a> của <a href="https://www.michaelhartl.com/">Michael Hartl</a>
         new: Tin tức
@@ -37,5 +45,20 @@ vi:
   login:
     title: "Đăng nhập"
     description: "Trang đăng nhập."
+    sign_up: 
+      new_user: "Người dùng mới?"
+      page: "Đăng ký ngay"
+    form: 
+      email: "Email"
+      password: "Mật khẩu"
+    message: 
+      danger: "email/mật khẩu không hợp lệ"
   users:
     not_found: "Không tìm thấy người dùng này"
+  session:
+    create:
+      title: "Tạo mới"
+      description: "Trang tạo mới"
+    destroy:
+      title: "Xóa"
+      description: "Trang xóa"
