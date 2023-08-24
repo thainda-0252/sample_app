@@ -49,6 +49,10 @@ gem "rails-i18n"
 gem "config"
 
 gem "bcrypt", "3.1.18"
+
+gem "faker", "2.21.0"
+
+gem "pagy"
 # Use Sass to process CSS
 # gem "sassc-rails"
 

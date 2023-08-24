@@ -54,8 +54,21 @@ en:
       password: "Password"
     message: 
       danger: "email/password not valid"
+    please_login: "Please login"
   users:
+    title: "List users"
     not_found: "Not found user"
+    destroy:
+      title: "delete"
+      success: "User deleted"
+      sure: "Are you sure?"
+      failed: "Delete failed"
+    edit: 
+      title: "Edit user"
+      cant_edit: "You cannot edit this account."
+      success: "Profile updated"
+      save_edit: "Save changes"
+  change: "change"
   session:
     create:
       title: "Create"
