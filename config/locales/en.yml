@@ -76,3 +76,11 @@ en:
     destroy:
       title: "Destroy"
       description: "Destroy description"
+  activation: 
+    success: "Account activated!"
+    confirm: "Please confirm your email to activate the account"
+    subject: "Account activation"
+    welcome: "Hi %{name}, Welcome to the Sample App! Click on the link below to activate your account"
+    active: "Activate"
+    not_actived: "Account not activated. Check your email for the activation link."
+    failed: "Invalid activation link"
