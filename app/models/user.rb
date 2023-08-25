@@ -6,10 +6,10 @@ class User < ApplicationRecord
                     format: {with: Settings.users.VALID_EMAIL_REGEX},
                     uniqueness: true
   has_secure_password
-  attr_accessor :remember_token
-
   validates :password, presence: true,
-                      length: {minimum: Settings.users.min_password}
+                       length: {minimum: Settings.users.min_password},
+                       allow_nil: true
+  attr_accessor :remember_token
 
   class << self
     def digest string

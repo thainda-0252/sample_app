@@ -8,10 +8,10 @@ class SessionsController < ApplicationController
 
   def check_save user
     if user.try(:authenticate, params.dig(:session, :password))
-      reset_session
+      forwarding_url = session[:following_url]
       params.dig(:session, :remember_me) == "1" ? remember(user) : forget(user)
       log_in user
-      redirect_to user
+      redirect_back_or forwarding_url || user
     else
       flash.now[:danger] = t "login.message.danger"
       render :new, status: :unprocessable_entity

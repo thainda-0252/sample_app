@@ -6,3 +6,6 @@ users:
   VALID_EMAIL_REGEX: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   min_password: 6
   max_email: 255
+  avatar_size: 80
+pages:
+  items: 10

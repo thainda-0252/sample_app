@@ -54,8 +54,21 @@ vi:
       password: "Mật khẩu"
     message: 
       danger: "email/mật khẩu không hợp lệ"
+    please_login: "Vui lòng đăng nhập"
   users:
+    title: "Danh sách người dùng"
     not_found: "Không tìm thấy người dùng này"
+    destroy:
+      title: "xóa"
+      success: "Đã xóa"
+      sure: "Bạn chắc chắn chứ?"
+      failed: "Xóa thất bại"
+    edit: 
+      title: "Thay đổi thông tin người dùng"
+      cant_edit: "Bạn không thể  sửa tài khoản này."
+      success: "Đã cập nhập"
+      save_edit: "Lưu thay đổi"
+  change: "thay đổi"
   session:
     create:
       title: "Tạo mới"
