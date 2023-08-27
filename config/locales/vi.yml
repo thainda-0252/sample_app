@@ -84,3 +84,25 @@ vi:
     active: "Kích hoạt"
     not_actived: "Tài khoản chưa được kích hoạt. Vui lòng check mail"
     failed: "Liên kết kích hoạt không hợp lệ"
+  forgot_password:
+    subject: "Đặt lại mật khẩu"
+    email:
+      send: "Email được gửi kèm hướng dẫn đặt lại mật khẩu"
+      not_found: "Không tìm thấy địa chỉ email"
+      expire_message: "Liên kết này sẽ hết hạn sau hai giờ."
+      click_link: "Để đặt lại mật khẩu của bạn hãy nhấp vào liên kết bên dưới:"
+      more_info: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+    password:
+      not_empty: "không thể trống"
+      success: "Mật khẩu đã được đặt lại."
+      expired: "Việc đặt lại mật khẩu đã hết hạn."
+      reset: "Đặt lại mật khẩu"
+      forgot: "Quên mật khẩu"
+    user: 
+      not_found: "Không tìm thấy người dùng!"
+      not_actived: "Người dùng không được kích hoạt!"
+    form: 
+      password: "Mật khẩu"
+      confirm_pass: "Xác nhận mật khẩu"
+      submit: "Cập nhật mật khẩu"
+      email: "Email"
