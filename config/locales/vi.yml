@@ -76,3 +76,11 @@ vi:
     destroy:
       title: "Xóa"
       description: "Trang xóa"
+  activation: 
+    success: "Tài khoản đã được kích hoạt!"
+    confirm: "Vui lòng kiểm tra email để kích hoạt tài khoản"
+    subject: "Kích hoạt tài khoản"
+    welcome: "Xin chào %{name}, Chào mừng bạn đến với Ứng dụng Mẫu! Hãy nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn"
+    active: "Kích hoạt"
+    not_actived: "Tài khoản chưa được kích hoạt. Vui lòng check mail"
+    failed: "Liên kết kích hoạt không hợp lệ"
