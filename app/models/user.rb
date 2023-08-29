@@ -10,7 +10,7 @@ class User < ApplicationRecord
   validates :password, presence: true,
                        length: {minimum: Settings.users.min_password},
                        allow_nil: true
-  attr_accessor :remember_token, :activation_token
+  attr_accessor :remember_token, :activation_token, :reset_token
 
   class << self
     def digest string
@@ -26,6 +26,21 @@ class User < ApplicationRecord
     def new_token
       SecureRandom.urlsafe_base64
     end
+  end
+
+  def password_reset_expired?
+    reset_sent_at < 2.hours.ago
+  end
+
+  def create_reset_digest
+    self.reset_token = User.new_token
+    update_columns reset_digest: User.digest(reset_token),
+                   reset_sent_at: Time.zone.now
+  end
+
+  # Sends password reset email.
+  def send_password_reset_email
+    UserMailer.password_reset(self).deliver_now
   end
 
   # Remembers a user in the database for use in persistent sessions.
