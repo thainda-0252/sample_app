@@ -17,6 +17,7 @@ module RailsTutorial
 
     config.i18n.default_locale = :vi
 
+    config.active_storage.variant_processor = :mini_magick
 
     # Configuration for the application, engines, and railties goes here.
     #

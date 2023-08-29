@@ -58,6 +58,8 @@ vi:
   users:
     title: "Danh sách người dùng"
     not_found: "Không tìm thấy người dùng này"
+    profile: "xem hồ sơ của tôi"
+    microposts: "micropost"
     destroy:
       title: "xóa"
       success: "Đã xóa"
@@ -106,3 +108,21 @@ vi:
       confirm_pass: "Xác nhận mật khẩu"
       submit: "Cập nhật mật khẩu"
       email: "Email"
+  micropost:
+    destroy:
+      success: "Đã xóa bài đăng"
+      failed: "Đã xóa không thành công"
+      title: "xóa"
+      confirm: "Bạn có chắc không?"
+    create:
+      success: "Đã tạo bài đăng"
+    image:
+      over_size: "Kích thước tệp tối đa là 5 MB. Vui lòng chọn một tập tin nhỏ hơn."
+      valid_format: "phải là định dạng hình ảnh hợp lệ"
+      valid_size: "phải nhỏ hơn 5 MB"
+    posted: "Đã đăng"
+    form:
+      submit: "Đăng"
+      placeholder: "Đăng một cái gì đó..."
+    feed: "Bảng tin"
+    ago: "trước"
