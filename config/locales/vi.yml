@@ -126,3 +126,10 @@ vi:
       placeholder: "Đăng một cái gì đó..."
     feed: "Bảng tin"
     ago: "trước"
+  relationships:
+    not_found: "Không có "
+    follower: "Đang theo dõi"
+    followed: "Theo dõi"
+    form:
+      follow: "Theo dõi"
+      unfollow: "Hủy theo dõi"

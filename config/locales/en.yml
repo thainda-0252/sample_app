@@ -126,3 +126,10 @@ en:
       placeholder: "Post something..."
     feed: "Feed"
     ago: "ago"
+  relationships:
+    not_found: "Not found"
+    follower: "Following"
+    followed: "Follower"
+    form:
+      follow: "Follow"
+      unfollow: "Unfollow"
