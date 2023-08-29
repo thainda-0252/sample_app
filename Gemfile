@@ -55,6 +55,12 @@ gem "faker", "2.21.0"
 gem "pagy"
 
 gem "figaro"
+
+gem "active_storage_validations", "0.9.8"
+
+gem "image_processing", "1.12.2"
+
+gem "mini_magick", "4.9.5"
 # Use Sass to process CSS
 # gem "sassc-rails"
 

@@ -1,6 +1,7 @@
 class User < ApplicationRecord
-  before_save :downcase_email
-  before_create :create_activation_digest
+  attr_accessor :remember_token, :activation_token, :reset_token
+
+  has_many :microposts, dependent: :destroy
   validates :name,  presence: true, length: {maximum: Settings.users.max_name}
   validates :email, presence: true,
                     length: {maximum: Settings.users.max_email},
@@ -10,8 +11,9 @@ class User < ApplicationRecord
   validates :password, presence: true,
                        length: {minimum: Settings.users.min_password},
                        allow_nil: true
-  attr_accessor :remember_token, :activation_token, :reset_token
-
+  before_save :downcase_email
+  before_create :create_activation_digest
+  scope :lastest, ->{order(created_at: :desc)}
   class << self
     def digest string
       cost = if ActiveModel::SecurePassword.min_cost
@@ -78,6 +80,10 @@ class User < ApplicationRecord
   # Sends activation email.
   def send_activation_email
     UserMailer.account_activation(self).deliver_now
+  end
+
+  def feed
+    microposts
   end
 
   private

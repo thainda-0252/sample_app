@@ -20,7 +20,9 @@ class UsersController < ApplicationController
     @pagy, @users = pagy(User.all, items: Settings.pages.items)
   end
 
-  def show; end
+  def show
+    @page, @microposts = pagy @user.microposts, items: Settings.pages.items
+  end
 
   def create
     @user = User.new(user_params)
@@ -56,15 +58,6 @@ class UsersController < ApplicationController
   # Confirms an admin user.
   def admin_user
     redirect_to(root_url, status: :see_other) unless current_user.admin?
-  end
-
-  # Confirms a logged-in user.
-  def logged_in_user
-    return if logged_in?
-
-    flash[:danger] = t "login.please_login"
-    store_location
-    redirect_to login_path
   end
 
   # Confirms the correct user.

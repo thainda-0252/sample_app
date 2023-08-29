@@ -9,3 +9,10 @@ users:
   avatar_size: 80
 pages:
   items: 10
+micropost:
+  resize_to_limit: [500, 500]
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+digits:
+  length_140: 140
+file:
+  size_5: 5

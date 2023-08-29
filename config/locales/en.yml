@@ -58,6 +58,8 @@ en:
   users:
     title: "List users"
     not_found: "Not found user"
+    profile: "view my profile"
+    microposts: "micropost"
     destroy:
       title: "delete"
       success: "User deleted"
@@ -106,3 +108,21 @@ en:
       confirm_pass: "Password Confirmation"
       submit: "Update password"
       email: "Email"
+  micropost:
+    destroy:
+      success: "Micropost deleted"
+      failed: "Deleted fail"
+      title: "delete"
+      confirm: "Are you sure?"
+    create:
+      success: "Micropost created!"
+    image:
+      over_size: "Maximum file size is 5MB. Please choose a smaller file."
+      valid_format: "must be a valid image format"
+      valid_size: "should be less than 5MB"
+    posted: "Posted"
+    form:
+      submit: "Post"
+      placeholder: "Post something..."
+    feed: "Feed"
+    ago: "ago"
